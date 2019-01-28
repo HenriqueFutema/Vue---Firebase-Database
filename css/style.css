@@ -1,0 +1,42 @@
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo{
+  font-size: 32;
+  font-weight: 100;
+  font-family: roboto;
+}
+.nick{
+  text-align: center;
+  color: blue
+}
+
+.nick::placeholder{
+  color: blue;
+  text-align: center;
+}
+.mainChat{
+  display: flex;
+  justify-content: center;
+}
+
+.novaMsg{
+  top: 0;
+
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.inp-msg{
+  margin-bottom: 20px;
+}
+
+.btn-new{
+  margin-bottom: 40px;
+}
